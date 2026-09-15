@@ -4,21 +4,21 @@ cask "capydb" do
 
   on_macos do
     on_arm do
-      sha256 "36dbf4bbfe2fdac8a63166902de059227f0b2479caa24ea5ff0abc8c1695e13f"
+      sha256 "6fd8c5e04c4ef0c99708fcc8dc5bcda98ab05c0a0cd3cb606e9d3e8940971139"
       url "https://github.com/capydatabase/capydb-cli/releases/download/v#{version}/capydb_#{version}_macOS_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c797e26512f53999b6fb1d7454bf05d8d1be04732589de17c4d7306387e6eb93"
+      sha256 "ea8e0036afd5ebb61afd5e08816326686aa228b00f5743a47f0e809df4d3360d"
       url "https://github.com/capydatabase/capydb-cli/releases/download/v#{version}/capydb_#{version}_macOS_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "8bccc3d074ebd60f2105be089120aed4348c53727cc398ed36778f272824b759"
+      sha256 "1d65394346e8165d30b7d66ca192dd3096009d77dfa9383c9dd80cb4b306a9ce"
       url "https://github.com/capydatabase/capydb-cli/releases/download/v#{version}/capydb_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "197d8e283fa5e7e8f368d167c4d057474c158d987ef1ee4f185497f6e1be8ad2"
+      sha256 "e97f0777f6921bc2daa09079edbb24339097b2bd50f5355ce65e57803c68c245"
       url "https://github.com/capydatabase/capydb-cli/releases/download/v#{version}/capydb_#{version}_linux_x86_64.tar.gz"
     end
   end
